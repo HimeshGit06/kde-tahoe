@@ -1,0 +1,22 @@
+# Build artifacts
+*.o
+*.so
+*.cache
+__pycache__/
+*.pyc
+
+# Temp files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled cursor packages (keep sources, not binaries)
+cursors/*/cursors/
+
+# Large generated wallpaper exports
+wallpapers/exports/
+
+# Personal / machine-specific
+scripts/local_*.sh
+.env
